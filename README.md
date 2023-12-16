@@ -17,3 +17,5 @@ The following project contains 2 contracts.
 1) First contract is ERC 20 Contract which creates our own token. We have used openzeppelin library to create an ERC20 token and its interface. This has given our token some functionalities like approve, balanceOf. The documentation for the library is here: https://docs.openzeppelin.com/contracts/5.x/api/token/erc20
 
 2) The second contract is the DEX contract. This contract is used to create a DEX and give the exchange certain functionalities like checking how many tokens does your metamask wallet have and buying the token you have created and selling it. The owner grants access to the DEX to sell a certain amount of tokens and that amount is sold to the buyer when he buys it.
+
+3) The entire project is created using hardhat. There are multiple test cases present in the project under the directory /test. A frontend has also been created though its a very basic and with almost no styling. The main goal of this project was to make sure, the functionalities made in the backend were correct and working as expected.
